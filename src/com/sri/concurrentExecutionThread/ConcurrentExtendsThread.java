@@ -19,6 +19,16 @@ public class ConcurrentExtendsThread {
 
 		runner1.start();
 		runner2.start();
+		
+		try {
+			runner1.join();
+			runner2.join();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		System.out.println("Tasks are completed..");
 
 	}
 
