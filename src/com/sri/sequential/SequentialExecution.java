@@ -1,4 +1,4 @@
-package sri;
+package com.sri.sequential;
 
 public class SequentialExecution {
 	public static void main(String[] args) {

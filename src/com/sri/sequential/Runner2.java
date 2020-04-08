@@ -1,4 +1,4 @@
-package sri;
+package com.sri.sequential;
 
 public class Runner2 {
 	void executeRunner2(){
